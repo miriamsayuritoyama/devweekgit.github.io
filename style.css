@@ -36,13 +36,16 @@
 }
 
 .profile {
+    padding: 20px;
+    text-align: center;
     width: 100%;
     border-bottom: 2px solid #eeeeee;
 }
 
-.profile .profile-image {
+.profile-image {
+    padding: 20px;
     width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .name {
@@ -65,11 +68,18 @@
     font-size: 20px;
 }
 
+.left-title ul li {
+    margin-bottom: 20px;
+}
+
 .contact-info ul {
     padding-top: 1.5rem;
 }
 
-.contact-info ul li,
+.contact-info {
+    padding: 20px;
+    color: #FFFFFF;
+}
 .references ul li {
     padding: .4rem 0;
     color: #eeeeee;
@@ -80,6 +90,9 @@
     padding-right: 1rem;
     font-size: 18px;
     color: #eeeeee;
+}
+.skills {
+    padding: 20px;
 }
 
 .skills ul {
@@ -139,4 +152,17 @@
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
+}
+
+.education-gap {
+   
+    padding: 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.awards-gap {
+    font-size: 18px;
+    padding: 30px;
+    color: #FFFFFF;
 }
