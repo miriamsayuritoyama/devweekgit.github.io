@@ -1,0 +1,131 @@
+/* Config Root */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    margin: 20px;
+}
+/* Seção Esquerda */
+.left-side {
+    display: block;
+    padding: 15px;
+    align-content: center;
+    width: 30%;
+    background-color: #363142;
+    
+}
+
+.img-profile {     
+    border-radius: 50%;
+    width: 100%;
+}
+
+.name-profile h1 {
+    margin-top: 10px;
+    color: #F8FBFF;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.job-profile h2 {
+    color: #F8FBFF;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.left-line {
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 2px solid #F8FBFF;
+}
+
+.contact-info {
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;   
+}
+
+.contact-info li {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.skills {
+    color: #F8FBFF;
+    font-size: 18px;
+    margin-top: 10px; 
+    margin-left: 10px;   
+}
+
+.skills li {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    list-style: none;
+}
+/* Seção Direita */
+.right-side {
+    padding: 15px;
+    width: 70%;
+    border-radius: 0 50px 0 0;
+    background-color: #7855c3;
+}
+
+.about-me {
+    margin-top: 20px;
+    color: #F8FBFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-sub {
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.experience,
+.education,
+.courses {
+    color: #F8FBFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    display: flex;
+}
+
+.experience-tittle,
+.education-tittle,
+.courses-tittle {
+    color: #F8FBFF;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.experience-right,
+.experience-left,
+.education-right,
+.education-left,
+.courses-right,
+.courses-left {
+    margin: 10px 0 10px 0;
+    width: 50%;
+}
+
+.experience-right h2,
+.experience-left h2,
+.education-right h2,
+.education-left h2,
+.courses-right h2,
+.courses-left h2 {
+    color: #FFFF00;
+}
